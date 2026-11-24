@@ -36,7 +36,7 @@ path.join(__dirname, "public")
 )
 );
 
-
+require("./db");
 /*IMPORTAÇÃO DAS ROTAS*/
 // Rotas de autenticação (login, token etc.)
 const authRoutes = require("./src/routes/authRoutes");
